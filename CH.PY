@@ -61,17 +61,61 @@
 #         print("no")
 
 
-num=int(input("enter the no:"))
-remi=0
-reverse=0
-sum=0
-while(num>0):
-    remi=num % 10
-    print("reminder: ",remi)
-    sum = sum+remi
-    num//=10
-    reverse=reverse*10+remi
-print(reverse)
-print("sum of remainders:", sum)
-# num=reverse
-# print(num)
+# num=int(input("enter the no:"))
+# remi=0
+# reverse=0
+# sum=0
+# while(num>0):
+#     remi=num % 10
+#     print("reminder: ",remi)
+#     sum = sum+remi
+#     num//=10
+#     reverse=reverse*10+remi
+# print(reverse)
+# print("sum of remainders:", sum)
+
+# count=0
+# for rows in range(0,3):
+#     for column in range(0,3):
+#         print(count,end=" ")
+#     print() 
+
+# count=9
+# for rows in range(0,3):
+#     for column in range(0,3):
+#         print(count,end=" ")
+#         count -=1    
+#     print() 
+
+
+# for rows in range(0,3):
+#     for column in range(0,3):
+#         print(count,end=" ")    
+#     print() 
+#     count +=1
+
+# count=0
+# for rows in range(0,3):
+#     for column in range(0,3):
+#         print(count,end=" ") 
+#     count +=1   
+#     print()
+
+# for rows in range(0,3):
+#     for column in range(0,3):
+#         print(column,end=" ")   
+#     print()
+
+# for rows in range(0,3):
+#     for column in range(0,3): 
+#         if(rows==column):
+#             print(1, end=' ')
+#         else:
+#             print(0, end=' ')
+#     print()
+
+
+for rows in range(1,6):
+    for column in range(2,6): 
+         print(rows * column, end=" ")
+    print()
